@@ -1,0 +1,8 @@
+net\shawshark\core\api\CorePluginAPI.class
+net\shawshark\core\api\user\minigames\MinigameData.class
+net\shawshark\core\api\IPlayerDataManager.class
+net\shawshark\core\api\CorePluginPlugin.class
+net\shawshark\core\api\user\MinigameTypes.class
+net\shawshark\core\api\user\ICorePlayer.class
+net\shawshark\core\api\user\minigames\GameData.class
+net\shawshark\core\api\user\minigames\MinigameCurrency.class
