@@ -8,4 +8,6 @@ import java.util.UUID;
 public interface CorePluginPlugin extends Plugin {
     IPlayerDataManager getPlayerDataManager();
     ICorePlayer getCorePlayer(UUID uuid);
+
+    void registerMiniGame(String name, String SQLTableName, String sqlCurrencyTableName);
 }
