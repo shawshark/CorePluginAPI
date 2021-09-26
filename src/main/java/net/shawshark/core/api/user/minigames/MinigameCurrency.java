@@ -10,6 +10,6 @@ import java.util.UUID;
 @AllArgsConstructor
 public class MinigameCurrency {
     @Getter@Setter private UUID uuid;
-    @Getter@Setter private MinigameTypes minigameType;
+    @Getter@Setter private MiniGame minigameType;
     @Getter@Setter private int balance;
 }

@@ -1,5 +1,7 @@
 net\shawshark\core\api\CorePluginAPI.class
 net\shawshark\core\api\user\minigames\MinigameData.class
+net\shawshark\core\api\ProfileLoad.class
+net\shawshark\core\api\user\minigames\MiniGame.class
 net\shawshark\core\api\IPlayerDataManager.class
 net\shawshark\core\api\CorePluginPlugin.class
 net\shawshark\core\api\user\MinigameTypes.class

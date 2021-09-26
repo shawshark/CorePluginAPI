@@ -5,7 +5,7 @@ import net.shawshark.core.api.user.MinigameTypes;
 
 public class GameData extends MinigameData {
 
-    public GameData(MinigameTypes type, ICorePlayer corePlayer) {
+    public GameData(MiniGame type, ICorePlayer corePlayer) {
         super(type, corePlayer);
     }
 }

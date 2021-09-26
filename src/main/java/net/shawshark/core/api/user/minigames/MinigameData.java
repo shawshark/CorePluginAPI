@@ -7,14 +7,14 @@ import net.shawshark.core.api.user.MinigameTypes;
 
 public abstract class MinigameData {
 
-    private MinigameTypes type;
+    private MiniGame type;
     private ICorePlayer corePlayer;
 
     @Getter@Setter private long lastPlayed = -1;
     @Getter@Setter int played = 0;
     @Getter@Setter private int kills = 0, deaths = 0, wins = 0, lost = 0;
 
-    public MinigameData(MinigameTypes type, ICorePlayer corePlayer) {
+    public MinigameData(MiniGame type, ICorePlayer corePlayer) {
         this.type = type;
         this.corePlayer = corePlayer;
     }
