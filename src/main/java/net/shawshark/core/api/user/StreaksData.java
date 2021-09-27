@@ -25,7 +25,7 @@ public class StreaksData extends CoreData {
     }
 
     @Override
-    void loadDefault() {
+    public void loadDefault() {
         this.streak = 0;
     }
 }

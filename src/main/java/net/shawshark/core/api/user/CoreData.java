@@ -12,12 +12,7 @@ public abstract class CoreData {
         this.gson = new Gson();
     }
 
-    public CoreData() {
-        this.data = "";
-        this.gson = new Gson();
-    }
-
-    abstract void load();
-    abstract String save();
-    abstract void loadDefault();
+    public abstract void load();
+    public abstract String save();
+    public abstract void loadDefault();
 }
